@@ -18,6 +18,7 @@ import Details from "./Pages/Details/Details";
 import Profile from "./Pages/Profile/Profile";
 import ShoppingCard from "./Pages/ShoppingCard/ShoppingCard";
 import Payment from "./Pages/Payment/Payment";
+import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/shoppingcart" element={<ShoppingCard />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
