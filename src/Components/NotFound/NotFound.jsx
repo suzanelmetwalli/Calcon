@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../public/images/notfound";
+import img from "../../assets/images/notfound.jpg";
 import Style from "./NotFound.module.css";
 export default function NotFound() {
   return (
