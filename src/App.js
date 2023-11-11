@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
@@ -21,32 +21,38 @@ import Payment from "./Pages/Payment/Payment";
 import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
-  return (
-    <>
+ 
+ let routers = createHashRouter([
+        { path: "/", element: <Login /> },
+        { path: "/home", element: <Home /> },
+        { path: "/login", element: <Login /> },
+        { path: "/register", element: <Register /> },
+        { path: "/aboutus", element: <AboutUs /> },
+        { path: "/contactus", element: <ContactUs /> },
+        { path: "/breakfast", element: <Breakfast /> },
+        { path: "/lunch", element: <Lunch /> },
+        { path: "/dinner", element: <Dinner /> },
+        { path: "/snacks", element: <Snacks /> },
+        { path: "/workout", element: <WorkOut /> },
+        { path: "/goal", element: <Goal /> },
+        { path: "/calories", element: <Calories /> },
+        { path: "/activity", element: <Activity /> },
+        { path: "/foods", element: <Foods /> },
+        { path: "/details", element: <Details /> },
+        { path: "/profile", element: <Profile /> },
+        { path: "/shoppingcart", element: <ShoppingCard /> },
+        { path: "/payment", element: <Payment /> },
+        { path: "*", element: <NotFound /> }
     
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/breakfast" element={<Breakfast />} />
-        <Route path="/lunch" element={<Lunch />} />
-        <Route path="/dinner" element={<Dinner />} />
-        <Route path="/snacks" element={<Snacks />} />
-        <Route path="/workout" element={<WorkOut />} />
-        <Route path="/goal" element={<Goal />} />
-        <Route path="/calories" element={<Calories />} />
-        <Route path="/activity" element={<Activity />} />
-        <Route path="/foods" element={<Foods />} />
-        <Route path="/details" element={<Details />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/shoppingcart" element={<ShoppingCard />} />
-        <Route path="/payment" element={<Payment />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </>
+  ]);
+
+
+
+  return (
+   
+    
+    <RouterProvider router={routers}></RouterProvider>
+  
   );
 }
 
