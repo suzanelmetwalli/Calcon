@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Calcon/static/css/main.f904cffb.css",
+    "main.js": "/Calcon/static/js/main.a2f1fdac.js",
+    "static/media/finalaagain.png": "/Calcon/static/media/finalaagain.3148e51dd332453c852e.png",
+    "static/media/log.PNG": "/Calcon/static/media/log.153f539d95dcc043dfb6.PNG",
+    "static/media/reg.PNG": "/Calcon/static/media/reg.9892f1bf3821205d3b1b.PNG",
+    "static/media/fa-solid-900.ttf": "/Calcon/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
+    "static/media/fa-brands-400.ttf": "/Calcon/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
+    "static/media/fa-solid-900.woff2": "/Calcon/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
+    "static/media/fa-brands-400.woff2": "/Calcon/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
+    "static/media/againagain.png": "/Calcon/static/media/againagain.a788105627479a2dd0ed.png",
+    "static/media/left_Logo.png": "/Calcon/static/media/left_Logo.e2a949a80b23041a50c2.png",
+    "static/media/fa-regular-400.ttf": "/Calcon/static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
+    "static/media/footer.png": "/Calcon/static/media/footer.e9c001ea9cbd5ae58eda.png",
+    "static/media/right_Logo.png": "/Calcon/static/media/right_Logo.f6f7c915a3807f707d3e.png",
+    "static/media/fa-regular-400.woff2": "/Calcon/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Calcon/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Calcon/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
+    "index.html": "/Calcon/index.html",
+    "main.f904cffb.css.map": "/Calcon/static/css/main.f904cffb.css.map",
+    "main.a2f1fdac.js.map": "/Calcon/static/js/main.a2f1fdac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f904cffb.css",
+    "static/js/main.a2f1fdac.js"
+  ]
+}
